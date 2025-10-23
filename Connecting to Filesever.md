@@ -47,6 +47,7 @@ Reload and mount:
 sudo systemctl daemon-reload; and sudo mount -a
 ```
 If you get a "mount error(22)", check SMB version compatibility or network connectivity. 
+
 6. Verify
 Check if mounted:
 ```

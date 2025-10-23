@@ -49,7 +49,7 @@ Run:
 ```
 sudo EDITOR=nano visudo -f /etc/sudoers.d/winboot
 ```
-Add this line:
+Add this line (CachyOS uses the wheel group by default):
 ```
 %wheel ALL=(ALL) NOPASSWD: /usr/bin/efibootmgr, /usr/bin/reboot
 ```
